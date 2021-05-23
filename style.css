@@ -13,23 +13,15 @@ body {
   background-image: url(images/mountains.jfif);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: left top;
   min-height: 100%;
   padding-bottom: 220px;
   position: absolute;
-}
-
-img {
-  width: 50%;
-  text-align: center;
-  border-radius: 50%;
-  height: 10%;
 }
  
 h1 {
   font-family: Bookman, URW Bookman L, serif, cursive;
   font-size: 64px;
-  color: #c7b40d;
+  color: #bea841;
   text-align: center;
   margin-top: -5px
 }
@@ -45,7 +37,25 @@ p {
   font-family: 'Lato', sans-serif;
   font-size: 22px;
   color: #ffffff;
-  margin-top: -100px;
+  margin-top: -1000px;
+}
+
+div { 
+  text-align: center; 
+}
+
+ul { 
+  display: inline-block;
+  font-size: 25px;
+  color: #eeebce;
+}
+
+hr {
+  background: url(images/waves.png);
+  background-size: contain;
+    height: 18px;
+    border: 0;
+    position: relative;
 }
 
 /* -----------------------------Nav------------------------- */
@@ -89,4 +99,16 @@ nav a:last-of-type {
 
 .imageContainer {
   text-align: center;
+}
+
+.about{
+  text-align: center;
+  color: #eeebce;
+  margin-top: 100px;
+}
+
+.about2{
+  text-align: center;
+  color: rgb(255, 255, 255);
+  margin-top: 0px;
 }
