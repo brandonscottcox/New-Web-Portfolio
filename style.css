@@ -90,24 +90,3 @@ nav a:last-of-type {
 .imageContainer {
   text-align: center;
 }
-
-.bubble{
-  text-align: right;
-  margin-right: 200px;
-  margin-top: -480px
-}
-
-.bubblechat{
-  text-align:right;
-  color: #636e7a;
-  font-size: 20px;
-  margin-right: 220px;
-  margin-top: -430px
-}
-.bubblechat2{
-  text-align:right;
-  color: #636e7a;
-  font-size: 20px;
-  margin-right: 250px;
-  margin-top: 120px
-}
