@@ -8,15 +8,6 @@ header img {
   margin-top: 100px;
   margin-left: 0px
 }
-
-body {
-  background-image: url(images/mountains.jfif);
-  background-size: cover;
-  background-repeat: no-repeat;
-  min-height: 100%;
-  padding-bottom: 220px;
-  position: absolute;
-}
  
 h1 {
   font-family: Bookman, URW Bookman L, serif, cursive;
@@ -47,11 +38,11 @@ div {
 ul { 
   display: inline-block;
   font-size: 25px;
-  color: #d0f8ff;
+  color: #eeebce;
 }
 
 hr {
-  background: url(images/waves.png);
+  background: url(images/gold.png);
   background-size: contain;
     height: 18px;
     border: 0;
@@ -97,11 +88,31 @@ nav a:last-of-type {
   margin-right: 20px;
 }
 
+a {
+  color: #7356b6;
+  font-family: Quattrocento, sans-serif;
+
+}
+
+ a:visited{
+  color:#3c7c7eab
+}
+
+a:hover {
+  color: rgb(21, 219, 209);
+}
+
+a:active{
+color:#cff5c4fd
+}
+
+
+
 /*--------------Classes----------------------------------*/
 
 .home{
   text-align: center;
-  color: #d0f8ff;
+  color: #eeebce;
   margin-top: 200px;
 }
 
@@ -119,4 +130,31 @@ nav a:last-of-type {
   text-align: center;
   color: rgb(255, 255, 255);
   margin-top: 0px;
+}
+
+.body {
+  background-image: url(images/mountains.jfif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100%;
+  padding-bottom: 220px;
+  position: absolute;
+}
+
+.body2 {
+  background-image: url(images/Home_square_edit.jpg);
+  background-size: cover;
+  background-repeat:initial;
+  min-height: 100%;
+  padding-bottom: 220px;
+  position: absolute;
+}
+
+.body3 {
+  background-image: url(images/Architect.jpg);
+  background-size: cover;
+  background-repeat:no-repeat;
+  min-height: 100%;
+  padding-bottom: 220px;
+  position: absolute;
 }
