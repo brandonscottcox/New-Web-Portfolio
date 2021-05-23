@@ -29,7 +29,7 @@ h1 {
 h2 {
   font-family: Bookman, URW Bookman L, serif, cursive;
   font-size: 54px;
-  color: #eeebce;
+  color: #d0f8ff;
   text-align: center;
 }
  
@@ -47,7 +47,7 @@ div {
 ul { 
   display: inline-block;
   font-size: 25px;
-  color: #eeebce;
+  color: #d0f8ff;
 }
 
 hr {
@@ -55,7 +55,15 @@ hr {
   background-size: contain;
     height: 18px;
     border: 0;
-    position: relative;
+    position:relative;
+}
+
+ul hr{
+  background: url(images/gold.png);
+  background-size: contain;
+    height: 18px;
+    border: 0;
+    position:relative;
 }
 
 /* -----------------------------Nav------------------------- */
@@ -93,7 +101,7 @@ nav a:last-of-type {
 
 .home{
   text-align: center;
-  color: #eeebce;
+  color: #d0f8ff;
   margin-top: 200px;
 }
 
