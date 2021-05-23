@@ -112,7 +112,7 @@ color:#cff5c4fd
 
 .home{
   text-align: center;
-  color: #eeebce;
+  color: #ffffff;
   margin-top: 200px;
 }
 
@@ -133,7 +133,7 @@ color:#cff5c4fd
 }
 
 .body {
-  background-image: url(images/mountains.jfif);
+  background-image: url(images/mountains_edit.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 100%;
