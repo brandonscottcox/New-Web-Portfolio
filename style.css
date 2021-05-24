@@ -195,7 +195,7 @@ color:#e9d30eab
 .body2 {
   background-image: url(images/Home_square.jpg);
   background-size: cover;
-  background-repeat:initial;
+  background-repeat:no-repeat;
   min-height: 100%;
   padding-bottom: 220px;
   position: absolute;
