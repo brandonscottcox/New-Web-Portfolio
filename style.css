@@ -103,6 +103,30 @@ ul hr{
 
 /* -----------------------------Links------------------------- */
 
+article nav{
+  margin-left: 0px;
+  text-align: center;
+}
+
+article nav a{
+  margin-right: 40px;
+  font-size: 20px;
+  color: #000000;
+  font-family: Quattrocento, sans-serif;
+}
+
+article nav a:visited{
+  color:#ff0909ab
+}
+
+article nav a:hover {
+  color: #777(255, 36, 36);
+}
+
+article nav a:active{
+color:#0e48e9ab
+}
+
 nav {
   margin-left: 0px;
   text-align: center;
@@ -162,6 +186,17 @@ footer a:active{
 color:#e9d30eab
 }
 
+footer article a:visited{
+color:rgb(255, 36, 36);
+}
+
+footer article a:hover {
+  color: #777;
+}
+
+footer article a:active{
+color:#e9d30eab
+}
 
 /*-------------------------------------Classes----------------------------------------------*/
 
@@ -199,7 +234,7 @@ color:#e9d30eab
 .body2 {
   background-image: url(images/Home_square.jpg);
   background-size: cover;
-  background-repeat:repeat;
+  background-repeat:initial;
   min-height: 100%;
   padding-bottom: 220px;
   position: absolute;
