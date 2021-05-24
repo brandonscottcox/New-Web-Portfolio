@@ -2,6 +2,12 @@ html {
   min-height: 100%;
 }
 
+div { 
+  text-align: center; 
+}
+
+/*-----------------------------Image-----------------------------*/
+
 header img {
   width: 29%;
   border-radius: 50%;
@@ -15,6 +21,8 @@ main img {
   margin-top: 50px;
   margin-left: 0px
 }
+
+/*-----------------------------Header-----------------------------*/
 
 h1 {
   font-family: Bookman, URW Bookman L, serif, cursive;
@@ -39,6 +47,7 @@ h3 {
   margin-top: 60px;
 }
 
+/*-----------------------------P-----------------------------*/
  
 p {
   font-family: 'Lato', sans-serif;
@@ -54,9 +63,7 @@ footer p{
   margin-top: 300px;
 }
 
-div { 
-  text-align: center; 
-}
+/*-----------------------------Lists-----------------------------*/
 
 ul { 
   display: inline-block;
@@ -71,6 +78,8 @@ ol {
   color: #eeebce;
   text-align: left;
 }
+
+/*-----------------------------HR-----------------------------*/
 
 hr {
   background: url(images/gold.png);
@@ -211,8 +220,6 @@ color:#e9d30eab
   margin-top: 90px;
 }
 
-
-
 /* ---------------------------------------ID's-----------------------------------------------*/
 
 #wrap {
@@ -222,7 +229,6 @@ color:#e9d30eab
 #footer {
   position: relative;
   margin-top: -180px;
-  /* negative value of footer height */
   height: 0px;
   clear: both;
 }
@@ -231,7 +237,6 @@ color:#e9d30eab
 #footer2 {
   position: relative;
   margin-top: -400px;
-  /* negative value of footer height */
   height: 0px;
   clear: both;
 }
