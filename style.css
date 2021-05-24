@@ -22,10 +22,6 @@ main img {
   margin-left: 0px
 }
 
-footer article p{
-  color:#000000
-}
-
 /*-----------------------------Header-----------------------------*/
 
 
@@ -65,7 +61,7 @@ p {
 footer p{
   font-family: 'Lato', sans-serif;
   font-size: 13px;
-  color: #ffffff;
+  color: #000000;
   margin-top: 300px;
 }
 
