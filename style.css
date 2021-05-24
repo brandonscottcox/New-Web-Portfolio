@@ -28,12 +28,22 @@ footer article p{
 
 /*-----------------------------Header-----------------------------*/
 
+article h1{
+  font-family: Bookman, URW Bookman L, serif, cursive;
+  font-size: 76px;
+  color: #000000;
+  text-align: center;
+  margin-top: -5px;
+  filter: contrast(70%)
+}
+
 h1 {
   font-family: Bookman, URW Bookman L, serif, cursive;
   font-size: 76px;
   color: #eec613;
   text-align: center;
-  margin-top: -5px
+  margin-top: -5px;
+  filter: contrast(100%)
 }
 
 h2 {
