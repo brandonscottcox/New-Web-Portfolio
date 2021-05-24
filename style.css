@@ -186,7 +186,7 @@ color:#e9d30eab
 .body {
   background-image: url(images/mountains_edit.jpg);
   background-size: cover;
-  background-repeat: initial;
+  background-repeat: no-repeat;
   min-height: 100%;
   padding-bottom: 220px;
   position: absolute;
