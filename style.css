@@ -130,7 +130,7 @@ nav a:last-of-type {
   margin-right: 20px;
 }
 
-a {
+a:link {
   color: #7356b6;
   font-family: Quattrocento, sans-serif;
 
@@ -148,8 +148,13 @@ a:active{
 color:#cff5c4fd
 }
 
+footer a:link {
+  color: #000000;
+  font-family: Quattrocento, sans-serif;
+}
+
 footer a:visited{
-color:#2133d6ab
+color:#d62121
 }
 
 footer a:hover {
