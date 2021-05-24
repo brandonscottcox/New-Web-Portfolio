@@ -105,29 +105,6 @@ ul hr{
 
 /* -----------------------------Links------------------------- */
 
-article nav{
-  margin-left: 0px;
-  text-align: center;
-}
-
-article nav a{
-  margin-right: 40px;
-  font-size: 20px;
-  color: #000000;
-  font-family: Quattrocento, sans-serif;
-}
-
-article nav a:visited{
-  color:#ff0909ab
-}
-
-article nav a:hover {
-  color: #777(255, 36, 36);
-}
-
-article nav a:active{
-color:#0e48e9ab
-}
 
 nav {
   margin-left: 0px;
@@ -137,13 +114,12 @@ nav {
 nav a {
   margin-right: 40px;
   font-size: 20px;
-  color: #8f99a4;
+  color: #000000;
   font-family: Quattrocento, sans-serif;
-
 }
 
 nav a:visited{
-  color:#2133d6ab
+  color:#ff0909ab
 }
 
 nav a:hover {
@@ -151,7 +127,7 @@ nav a:hover {
 }
 
 nav a:active{
-color:#e9d30eab
+color:#0e48e9ab
 }
 
 nav a:last-of-type {
