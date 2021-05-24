@@ -9,9 +9,16 @@ header img {
   margin-left: 0px
 }
  
+main img {
+  width: 50%;
+  border-radius: 50%;
+  margin-top: 80px;
+  margin-left: 0px
+}
+
 h1 {
   font-family: Bookman, URW Bookman L, serif, cursive;
-  font-size: 64px;
+  font-size: 76px;
   color: #bea841;
   text-align: center;
   margin-top: -5px
@@ -31,6 +38,13 @@ p {
   margin-top: -1000px;
 }
 
+footer p{
+  font-family: 'Lato', sans-serif;
+  font-size: 13px;
+  color: #ffffff;
+  margin-top: 300px;
+}
+
 div { 
   text-align: center; 
 }
@@ -39,6 +53,14 @@ ul {
   display: inline-block;
   font-size: 25px;
   color: #eeebce;
+  text-align: left;
+}
+
+ol { 
+  display: inline-block;
+  font-size: 25px;
+  color: #eeebce;
+  text-align: left;
 }
 
 hr {
@@ -151,10 +173,45 @@ color:#cff5c4fd
 }
 
 .body3 {
-  background-image: url(images/Architect.jpg);
+  background-image: url(images/HTML.png);
   background-size: cover;
-  background-repeat:no-repeat;
+  background-repeat:repeat;
   min-height: 100%;
   padding-bottom: 220px;
   position: absolute;
+}
+
+.contact{
+  text-align: center;
+  color: #eeebce;
+  margin-top: 140px;
+}
+
+.contactol {
+  margin-top: 90px;
+}
+
+
+
+/* --------------------------ID's----------------------------------------*/
+
+#wrap {
+  min-height: 100%;
+}
+
+#footer {
+  position: relative;
+  margin-top: -180px;
+  /* negative value of footer height */
+  height: 0px;
+  clear: both;
+}
+
+
+#footer2 {
+  position: relative;
+  margin-top: -400px;
+  /* negative value of footer height */
+  height: 0px;
+  clear: both;
 }
