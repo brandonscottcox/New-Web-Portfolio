@@ -202,7 +202,7 @@ color:#e9d30eab
 }
 
 .body3 {
-  background-image: url(images/HTML.png);
+  background-image: url(images/Home_square.jpg);
   background-size: cover;
   background-repeat:repeat;
   min-height: 100%;
@@ -212,7 +212,7 @@ color:#e9d30eab
 
 .contact{
   text-align: center;
-  color: #ffffff;
+  color: #eeebce;
   margin-top: 140px;
 }
 
