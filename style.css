@@ -107,15 +107,15 @@ nav {
   text-align: center;
 }
 
-nav a {
+nav a:link {
   margin-right: 40px;
   font-size: 20px;
-  color: #000000;
+  color: #ff0909ab;
   font-family: Quattrocento, sans-serif;
 }
 
 nav a:visited{
-  color:#ff0909ab
+  color:#21d69ae0
 }
 
 nav a:hover {
@@ -123,7 +123,7 @@ nav a:hover {
 }
 
 nav a:active{
-color:#0e48e9ab
+color:#cff5c4fd
 }
 
 nav a:last-of-type {
@@ -149,12 +149,12 @@ color:#cff5c4fd
 }
 
 footer a:link {
-  color: #000000;
+  color: #ff0909ab;
   font-family: Quattrocento, sans-serif;
 }
 
 footer a:visited{
-color:#d62121
+color:#21d69ae0
 }
 
 footer a:hover {
@@ -162,20 +162,9 @@ footer a:hover {
 }
 
 footer a:active{
-color:#e9d30eab
+color:#cff5c4fd
 }
 
-footer article a:visited{
-color:rgb(255, 36, 36);
-}
-
-footer article a:hover {
-  color: #777;
-}
-
-footer article a:active{
-color:#e9d30eab
-}
 
 /*-------------------------------------Classes----------------------------------------------*/
 
